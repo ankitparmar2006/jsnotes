@@ -77,3 +77,98 @@
 //   console.log(ans-2)
 //   console.log(ans+2)
 
+// let para =(a,b)=> {
+
+// all =document.querySelector("#text")
+
+
+//  console.log(a+b)
+
+
+
+// }
+
+
+//===============        28 nov                ====================
+     
+let showSquare = () => {
+     
+    let num=prompt(`enter the num u want square`)
+
+    num=num*num;
+let Result = document.querySelector("#squareResult")
+
+Result.innerHTML=(num)
+
+}
+
+
+// .---------------------------------------------------
+
+par =()=> {
+
+    let num1= parseInt(prompt("enter num1 "));
+    let num2=parseInt(prompt("enter num2 "));
+    
+    
+        let sum=num1+num2;
+    
+      let  result =document.querySelector("#text")
+    
+        result.innerHTML=`sum of  ${sum}`
+    
+    
+    }
+    par (); 
+
+
+//--------------------------------------------------------
+
+    
+
+paranum = ()=>{
+
+
+    let num1= parseInt(prompt("enter num1 "));
+    let num2=parseInt(prompt("enter num2 "));
+
+
+           let  result =document.querySelector("#textt")
+
+
+    if (num1>num2){
+        
+     
+       result.innerHTML=`num1 is greater`
+       console.log(num1)
+
+    }
+else {
+    result.innerHTML=`num2 is greater`
+    console.log(num2)
+
+
+}
+
+
+}
+
+parnum ();
+
+//-----------------------------------------------------------
+
+
+
+naam =()=>{
+
+let n=prompt ("enter ur name ")
+
+let p=document.querySelector("#texttt")
+
+p.innerHTML=`ur name is `${sum};
+
+
+
+
+}
+naam ();
