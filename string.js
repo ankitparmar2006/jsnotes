@@ -1,6 +1,4 @@
 
- 
-
 // // 27 nov
 // // template lateral =          ` `
 
