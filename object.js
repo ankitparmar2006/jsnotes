@@ -30,3 +30,12 @@ console.log(student)  // update
 
 
 console.log(student.welcome ())  
+
+
+
+
+// for (let neww in student){
+
+//     console.log(student[neww])
+// }
+
