@@ -259,3 +259,17 @@ run7 =()=>{
     
           
           }
+
+
+          
+
+      run9 =()=>{
+
+
+
+        let i16=document.querySelector("#in1").value;
+
+        
+    
+          
+          }
