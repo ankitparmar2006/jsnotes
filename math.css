@@ -1,0 +1,22 @@
+#box4 {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+
+#box5 {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+
+#box6 {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}

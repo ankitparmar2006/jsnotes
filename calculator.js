@@ -20,6 +20,11 @@
 
 // }
 
+
+
+
+//==================================================================================================
+
 // let store='';
 
 // let call=(value)=>{
@@ -37,49 +42,78 @@
 // let result=()=>{
 //     let show=document.querySelector('#show')
 //     show.innerHTML=eval(store);
-// store=eval(store)
-// store.toString();    
+// store=eval(store)     
+// store.toString();   
 
 // }
 
 
+// let ac=()=>{
 
-let store='';
-let cal=value=>{
-    let show=document.querySelector("#show");
-    store=store+value;
-    show.innerHTML=store;
-
-}
-let result=()=>{
-    let show=document.querySelector("#show");
-    show.innerHTML=eval(store);
-    store=eval(store);
-    store.toString();
-}
+// let show=document.querySelector("#show")
 
 
+// store="";
 
-let ac =()=>{
-
-store="";
-let show =document.querySelector("#show")
-
-show.innerHTML=store;
+// show.innerHTML=store;
 
 
-
-}
-
-
-let del=()=>{
+// }
 
 
-    store=store.slice(0,-1)
+// let del=()=>{
 
-    let show =document.querySelector("#show")
+//     let show=document.querySelector("#show")
+  
 
-    show.innerHTML=store;
-
+//     store=store.slice(0,-1)
     
-}
+//     show.innerHTML=store;
+    
+    
+//     }
+
+
+//======================================================================================================
+
+
+
+
+// let store='';
+// let cal=value=>{
+//     let show=document.querySelector("#show");
+//     store=store+value;
+//     show.innerHTML=store;
+
+// }
+// let result=()=>{
+//     let show=document.querySelector("#show");
+//     show.innerHTML=eval(store);
+//     store=eval(store);
+//     store.toString();
+// }
+
+
+
+// let ac =()=>{
+
+// store="";
+// let show =document.querySelector("#show")
+
+// show.innerHTML=store;
+
+
+
+// }
+
+
+// let del=()=>{
+
+
+//     store=store.slice(0,-1)
+
+//     let show =document.querySelector("#show")
+
+//     show.innerHTML=store;
+
+// }
