@@ -20,7 +20,14 @@ setTimeout(()=>{
 let run =()=>{
 
     let show =document.querySelector("#time")
-    
+
+    let Alaram =document.querySelector("#Alaram")
+    let ptag =document.querySelector("#show-alm")
+
+
+    let Alaram2 =document.querySelector("#Alaram2")
+
+
     
 let date = new Date ();
 
@@ -30,7 +37,11 @@ let sec= date.getSeconds();
 let mil= date.getMilliseconds();
 
 
-
+if (Alaram==date)
+{
+    
+    ptag.innerHTML=`alaram ring`
+}
 
         show.innerHTML=`  ${hour}  : ${min}  :  ${sec}  `;
     
