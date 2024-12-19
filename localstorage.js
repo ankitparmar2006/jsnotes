@@ -60,9 +60,10 @@ else if (number===""){
     localStorage.setItem("useremail",email)
 
 
-  
-}
+    window.location.href="settimeout.html"
+    return false;
 
+}
 
 
 
@@ -91,3 +92,47 @@ let logout=()=>{
 
     localStorage.clear();
 }
+
+//==============================================================================================
+
+let signup=()=>{
+
+localStorage.setItem("name",signname)
+localStorage.setItem("email",signmail)
+
+localStorage.setItem("password",signpass)
+
+window.location.href="locallogin.html"
+
+return false ;
+}
+
+
+
+//==============================================================================================
+
+
+let login=()=>{
+
+
+
+    let loginname=document.querySelector("#loginname").value
+    let loginpass=document.querySelector("#loginpass").value
+let checkname=localStorage.getItem("name")
+let checkpass=localStorage.getItem("password")
+
+if (loginname===checkname && loginpass ===checkpass) {
+
+
+    alert("login suceess")
+
+    window.location.href="index.html"
+
+}
+else {
+    alert("login faild")
+}
+return false;
+
+}
+
