@@ -60,7 +60,7 @@ else if (number===""){
     localStorage.setItem("useremail",email)
 
 
-    window.location.href="settimeout.html"
+   // window.location.href="settimeout.html"
     return false;
 
 }
